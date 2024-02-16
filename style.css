@@ -31,7 +31,7 @@ nav a {
 
 nav a:hover {
     background-color: white;
-    color: var(--lightblack);
+    color: var(--lightgray);
 }
 
 input {
@@ -40,8 +40,23 @@ input {
     padding: 5px;
 }
 
+a:link {
+    color: var(--beige);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--beige);
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
-    margin: 16px;
+    margin: 0 5%;
 }
 
 .card-container {
@@ -60,13 +75,16 @@ input {
 .intro-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px
 }
 
 .flex-video {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px
+    padding-top: 12px;
+    padding-bottom: 12px
 }
 
 .flex-item-right {
@@ -113,8 +131,7 @@ input {
 }
 
 .header-title {
-    margin-left: 45px;
-    margin-right: 45px;
+    margin: 0 5%;
     padding-top: 10px;
     padding-bottom: 170px;
     font-weight: normal;
@@ -122,8 +139,7 @@ input {
 }
 
 .header-content {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 5%;
     color: var(--lightgray);
 }
 
@@ -167,14 +183,33 @@ input {
     margin-bottom: 25px;
     background-color: var(--black);
     color: var(--beige);
-    /* border: 0; */
 }
 
 .footer-container {
     background-color: var(--lightblack);
     height: 100%;
     color: var(--beige);
-    padding: 16px;
+    padding: 5% 10% 1% 10%
+}
+
+.flex-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-title {
+    font-weight: normal;
+    font-size: 5vw;
+}
+
+.footer-text {
+    font-size: 1.5vw;
+}
+
+.footer-text a:link {
+    color: var(--beige);
 }
 
 @media screen and (max-width: 600px) {

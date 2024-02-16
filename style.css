@@ -19,8 +19,8 @@ body {
 }
 
 .card-container {
-    width: 500px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     border: 1px solid var(--lightgray);
     margin-right: 12px;
     margin-bottom: 12px;
@@ -103,7 +103,6 @@ body {
 }
 
 .content-title {
-    /* font-weight: normal; */
     color: var(--lightgray);
 }
 

@@ -46,7 +46,12 @@ nav a:hover {
     margin-bottom: 12px;
 }
 
-.flex-container {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-container {
     display: flex;
     justify-content: space-between;
 }
@@ -55,11 +60,11 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px
 }
 
 .flex-form {
     display: flex;
-    
 }
 
 .flex-item-right {
@@ -74,12 +79,10 @@ nav a:hover {
 
 .video-container {
     width: 500px;
-    height: 450px;
-    border: 1px solid var(--lightgray);
+    height: 400px;
     background-color: var(--beigeh);
-    border-radius: 3%;
     text-align: center;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 2px 2px 10px #aaaaaa;
 }
 
 .end-align {
@@ -113,7 +116,7 @@ nav a:hover {
     padding-top: 10px;
     padding-bottom: 170px;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 5vw;
 }
 
 .header-content {
@@ -132,4 +135,71 @@ nav a:hover {
     padding-top: 12px;
     padding-bottom: 12px;
     margin-bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .header-title {
+        font-size: 3.5vw;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .header-content {
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 12px;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .video-container {
+        width: 400px;
+        height: 325px;
+    }
+
+    .video-container>iframe {
+        width: 300px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header-content {
+        font-size: 8px;
+    }
+
+    .card-container {
+        width: 300px;
+        height: 225px;
+    }
+
+    .card-container>img {
+        width: 300px;
+        height: 225px;
+    }
+
+    /* .video-container {
+        width: 300px;
+        height: 275px;
+    }
+
+    .video-container>iframe {
+        width: 200px;
+        height: 150px;
+    } */
+}
+
+@media screen and (max-width: 380px) {
+    .card-container {
+        width: 200px;
+        height: 150px;
+    }
+
+    .card-container>img {
+        width: 200px;
+        height: 150px;
+    }
 }

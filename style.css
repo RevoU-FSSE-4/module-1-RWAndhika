@@ -34,6 +34,12 @@ nav a:hover {
     color: var(--lightblack);
 }
 
+input {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .container {
     margin: 16px;
 }
@@ -61,10 +67,6 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 24px
-}
-
-.flex-form {
-    display: flex;
 }
 
 .flex-item-right {
@@ -137,6 +139,44 @@ nav a:hover {
     margin-bottom: 24px;
 }
 
+.form {
+    display: flex;
+}
+
+.form-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-first-row {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.form-second-row {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-checkbox {
+    margin-bottom: 10px;
+}
+
+.input-btn {
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: var(--black);
+    color: var(--beige);
+    /* border: 0; */
+}
+
+.footer-container {
+    background-color: var(--lightblack);
+    height: 100%;
+    color: var(--beige);
+    padding: 16px;
+}
+
 @media screen and (max-width: 600px) {
     .header-title {
         font-size: 3.5vw;
@@ -181,15 +221,9 @@ nav a:hover {
         height: 225px;
     }
 
-    /* .video-container {
-        width: 300px;
-        height: 275px;
+    input {
+        padding: 2px;
     }
-
-    .video-container>iframe {
-        width: 200px;
-        height: 150px;
-    } */
 }
 
 @media screen and (max-width: 380px) {
@@ -201,5 +235,9 @@ nav a:hover {
     .card-container>img {
         width: 200px;
         height: 150px;
+    }
+
+    nav a {
+        font-size: 12px;
     }
 }

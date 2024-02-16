@@ -11,6 +11,7 @@
 
 <body>
   <header>
+    <!-- Cover -->
     <div class="cover">
       <div class="header-title">
         <h1>NUQI's<br>PORTOFOLIO</h1>
@@ -187,43 +188,38 @@
       </div>
     </section>
 
-    <!-- Contact -->
+    <!-- Message Me -->
     <section>
       <div class="container">
-        <h2 class="content-title">CONTACT</h2>
+        <h2 class="content-title">MESSAGE ME</h2>
         <form action="">
-          <div class="flex-form">
-            <div class="flex-item-left">
-              <!-- <label for="input-name">Name :</label> -->
-              <input id="input-name" type="text" placeholder="Your name" required />
-            </div>
-
-            <div class="flex-item-right">
-              <!-- <label for="input-email">Email :</label> -->
-              <input id="input-email" type="email" placeholder="Your email" required />
-            </div>
+          <div class="form form-container">
+            <input id="input-name" type="text" placeholder="Your name" class="form-first-row" required />
+            <input id="input-email" type="email" placeholder="Your email" class="form-first-row" required />
           </div>
-
-          <div>
-            <!-- <label for="input-msg">Message :</label><br> -->
-            <textarea id="input-msg" name="message" placeholder="Your message" cols="50" rows="4"></textarea>
+          <div class="form form-container">
+          <input id="input-message" type="text" placeholder="Your message" class="form-second-row" />
           </div>
-
-          <div>
+          <div class="form-checkbox">
             <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
             <label for="subscribe"> Subscribe to my newsletter!</label>
           </div>
-
-          <input type="submit" value="Send" />
+          <div class="form-container">
+            <input type="submit" value="Send" class="input-btn" />
+          </div>
         </form>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&#169; 2024 Ibnu Hafiz Fadhilah.<br />
-      Artworks and graphics presented are property of myself and belong to their respective owner.
-    </p>
+    <div class="footer-container">
+      <div>
+        <p>&#169; 2024 Ibnu Hafiz Fadhilah.<br />
+          Artworks and graphics presented are property of myself and belong to their respective owner.
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
 

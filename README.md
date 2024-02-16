@@ -1,10 +1,8 @@
-# Title of FSSE Assignment 1 - module 1
+# Nuqi's Web Portofolio
 
-![This is a banner](https://i.pinimg.com/564x/05/b8/89/05b889f1acd97e2018d73cdb8b6c0d93.jpg)
+![Nuqi's Portofolio banner](./img/banner.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Content in this [README.md](https://github.com/RevoU-FSSE-4/module-1-RWAndhika/blob/main/README.md) and [index.html](https://github.com/RevoU-FSSE-4/module-1-RWAndhika/blob/main/index.html) will be changed after the content has been finalized.
+This is a web portofolio of my friend Nuqi (Ibnu Hafiz Fadhilah) as to help me practice my front-end skill. Artworks and graphics presented are property of his and belong to their respective owner. Here I will try to keep the theme as similar as possible from the original portofolio.
 
 Raden Wisnu Andhika Pranidhia - Team 4
 

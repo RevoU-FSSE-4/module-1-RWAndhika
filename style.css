@@ -67,6 +67,11 @@ a:active {
     margin-bottom: 12px;
 }
 
+.card-container>img {
+    width: 400px;
+    height: 300px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
